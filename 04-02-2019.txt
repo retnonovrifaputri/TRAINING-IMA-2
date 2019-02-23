@@ -1,0 +1,28 @@
+9-10 : memepelajari skema android networking
+10-11 : testing file php menggunakan postman, membuat new project android PortalBerita menambah package dan dependencies
+11-12 : penjelasan ringkas tentang json dan membuat packages model dengan generate POJO from GSON yang menghasilkan kelas BeritaItem dan ResponseBerita
+12-1 :istirahat
+1-2 : membuat packages network yang berisi kelas interface ApiService dan kelas ConfigRetrofit.java
+2-3 : membuat layout activity_main.xml  dan item_berita.xml
+3-4 : membuat kelas BeritaAdapter.java, sholat ashar
+4-5 : membuat activity detailBerita dan running project
+
+
+skema android networking :
+database (mysql) 
+web server/service (php)
+internet
+android
+
+fungsi kelas pojo :
+dgunakan untuk mengirim data dalam jumlah banyak
+perantara request/terma dari dari serer
+sebagai hak akses ngakses database lokal android.
+(secara otomatis menegerate kelas model.)
+
+menggunakan :
+Retrofit, Butter Knife, Recyclerview, CardView dan menamplkan gambar dengan picasso
+
+
+ngirimdata pakai parseleber
+request layout android saveintances
